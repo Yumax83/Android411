@@ -48,7 +48,7 @@ public class Menu {
         } while (option != 5);
         //System.out.println(list);
         // System.out.print(Arrays.toString(list)); ВЫВОД ЭЛЕМЕНТОВ
-        // Yumax83@gmail.com Yumax83 Maksim3348 GITHUB
+        //
 
     }
 
