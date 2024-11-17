@@ -152,13 +152,6 @@ public class urok5 {
 
 
         }
-    // ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
-<<<<<<< HEAD
-        System.out.println("Вноссим изменения");
-        System.out.println("Новые изменения");
-=======
-        System.out.println("Вноcим изменения");
->>>>>>> fd4a6205e963d04de012ee0d7bec8d966123023a
 
     }
 }

@@ -4,9 +4,12 @@ import java.util.Arrays;
 
 public class DZ13 {
     public static void main(String[] args) {
-        int[] mas = {-2, 3, 8, -11, -4, 6};
+        int[] mas = {-2, 3, 8, -11, -4, 6,5,-7,-1,0};
         System.out.println("Исходный массив = " + Arrays.toString(mas));
         System.out.println("Количество отрицательных элементов в массиве = " + AccNegative(0, 0, mas)); //передаем значения в метод
+
+        System.out.println("Домашнее задание: отправить на проверку последнее домашнее задание ссылкой на HitHub");
+
     }
 
     public static int AccNegative(int i, int c, int[] arr) {
@@ -16,4 +19,5 @@ public class DZ13 {
         }
         return c; // возвращаем значение счетчика
     }
+
 }
