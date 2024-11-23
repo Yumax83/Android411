@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class DZ13 {
     public static void main(String[] args) {
-        int[] mas = {-2, 3, 8, -11, -4, 6,5,-7,-1,0};
+        int[] mas = {-2, 3, 8, -11, -4, 6, 5, -7, -1, 0};
         System.out.println("Исходный массив = " + Arrays.toString(mas));
         System.out.println("Количество отрицательных элементов в массиве = " + AccNegative(0, 0, mas)); //передаем значения в метод
 
