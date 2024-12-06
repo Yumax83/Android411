@@ -1,6 +1,6 @@
 package Lesson16;
 
-public class DZ16 {
+public class DZ17 {
     public static void main(String[] args) {
         String text = " Текст с повторяющимися символами ";
         text = text.trim().replace(" ", "");
