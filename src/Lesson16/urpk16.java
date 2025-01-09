@@ -123,14 +123,14 @@ public class urpk16 {
        // String pattern = "[^0-9]"; //ищем все кроме цифр
        // String pattern = "\\.";
         //String pattern = "\\d"; //[0-9] цифы
-        //String pattern = "\\s"; // [0-9] пробел S не пробел
+        // String pattern = "\\s"; // [0-9] пробел S не пробел
       //  String pattern = "\\w"; // [0-9] англ буква
        //String pattern = "\\D"; // [0-9] не цифра
       // String pattern = "\\AЯ ищу";
       // String pattern = "Ели\\Z";
       //String pattern = "\\Bпадения";
-        String pattern = "20*";
-        //String pattern = "\\w+";
+        //String pattern = "20*";
+        String pattern = "\\w+";
         /* кол  повторений
         + от 1 до бескон
         * от 0 до беск

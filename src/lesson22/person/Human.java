@@ -17,6 +17,13 @@ public class Human {
         // хэш кода объекта
     }
 
+    public Human(Human other) {
+        this.lasName = other.lasName;
+        this.firstName = other.firstName;
+        this.age = other.age;
+        System.out.println("HumanConstructor:\t" + Integer.toHexString(hashCode()));
+    }
+
     public String getLasName() {
         return lasName;
     }

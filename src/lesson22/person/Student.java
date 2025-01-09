@@ -20,6 +20,25 @@ public class Student extends Human {
         System.out.println("StudentConstructor:\t" + Integer.toHexString(hashCode()));
     }
 
+
+    public Student(Human human, String speciality,
+                   String group, double rating, double attendance) {
+        super(human);
+        setSpeciality(speciality);
+        setGroup(group);
+        setRating(rating);
+        setAttendance(attendance);
+        System.out.println("StudentConstructor:\t" + Integer.toHexString(hashCode()));
+    }
+    // контруктор копирования
+    public Student(Student other){
+        super(other);
+        this.attendance = other.attendance;
+        this.rating = other.rating;
+        this.group = other.group;
+        this.speciality = other.speciality;
+    }
+
     public String getSpeciality() {
         return speciality;
     }
