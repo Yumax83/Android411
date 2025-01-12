@@ -1,4 +1,4 @@
-package lesson26.enums2;
+package lesson27.enums2_RANDOM;
 
 import java.util.Random;
 

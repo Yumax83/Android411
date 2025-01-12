@@ -1,4 +1,4 @@
-package lesson26.enums;
+package lesson27.enums;
 
 public class Test {
     enum Length {

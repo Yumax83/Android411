@@ -1,4 +1,4 @@
-package lesson26.enums2;
+package lesson27.enums2_RANDOM;
 
 public class Main {
     public static void main(String[] args) {
