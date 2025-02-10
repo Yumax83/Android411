@@ -1,4 +1,8 @@
-package lesson28.generics._programm;
+package lesson28.generics_program;
 
-public class Figure {
+//public abstract class Figure {
+//    abstract public double getArea();
+//}
+public interface Figure {
+    public double getArea();
 }
