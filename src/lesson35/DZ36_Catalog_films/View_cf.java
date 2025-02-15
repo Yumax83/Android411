@@ -1,5 +1,6 @@
 package lesson35.DZ36_Catalog_films;
 
+
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -48,5 +49,39 @@ public class View_cf {
         System.out.println("==============================================================");
 
     }
+    public String getUserFilm() {
+        System.out.println("====================== Ввод названия фильма ========================");
+        System.out.print("->");
+        String user_film = input.nextLine();
+        System.out.println();
 
+        System.out.println("================================================================");
+        return user_film;
+    }
+
+    public void showSingleFilm(Map film) {
+        System.out.println("====================== Просмотр определенного фильма ========================");
+        for (Object el : film.entrySet()) {
+            System.out.println(el);
+        }
+        System.out.println("================================================================");
+    }
+    public void showIncorrectTitleError(String userTitle) {
+        System.out.println("====================== Сообщение об ошибке ========================");
+        System.out.println("====================== Фильма с названием " + userTitle + " не существует====");
+        System.out.println("================================================================");
+    }
+
+    public void removeSingleFilm(Film film) {
+        System.out.println("====================== Удаление фильма========================");
+        System.out.println("====================== Фильм с названием " + film + " был удален====");
+        System.out.println("================================================================");
+    }
+
+    public void showIncorrectAnswerError(String answer) {
+        System.out.println("====================== Сообщение об ошибке ========================");
+        System.out.println("Варианта " + answer + " не существует");
+        System.out.println("=======================================================");
+
+    }
 }

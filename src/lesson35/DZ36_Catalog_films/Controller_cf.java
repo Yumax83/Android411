@@ -28,6 +28,26 @@ public class Controller_cf {
         } else if (answer.equals("2")) {
             Collection films = filmModel.getAllFilms();
             userInterface.showAllFilms(films);
+        }else if (answer.equals("3")) {
+            String filmTitle = userInterface.getUserFilm();
+            try {
+                Map film= filmModel.getSingleFilm(filmTitle);
+                userInterface.showSingleFilm(film);
+            } catch (NullPointerException npe) {
+                userInterface.showIncorrectTitleError(filmTitle);
+            }
+        } else if (answer.equals("4")) {
+            String filmTitle = userInterface.getUserFilm();
+            Film title =filmModel.removeFilm(filmTitle);
+            if (title != null)
+                userInterface.removeSingleFilm(title);
+            else
+                userInterface.showIncorrectTitleError(filmTitle);
+        } else if (answer.equals("q")) {
+           filmModel.saveData();
+
+        } else  {
+            userInterface.showIncorrectAnswerError(answer);
         }
     }
 }
