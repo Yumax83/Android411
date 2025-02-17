@@ -1,4 +1,4 @@
-package lesson35;
+package lesson34;
 
 import java.util.Hashtable;
 

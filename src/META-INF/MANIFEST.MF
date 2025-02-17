@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: lesson35.articles.Main
+Main-Class: lesson35.DZ36_Catalog_films.Main_cf
 
